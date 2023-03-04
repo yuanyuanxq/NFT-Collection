@@ -22,7 +22,8 @@ async function main() {
   // Wait for it to finish deploying
   await deployedCryptoDevsContract.deployed();
   
-  // 0x0aA0fC6815557C7B9d3aDe5a3a04A25788312F9e
+  // 0x0aA0fC6815557C7B9d3aDe5a3a04A25788312F9e first
+  // 0x7E0a6a22e457ABc91d088e0A5317c9c54b4cD4D2 second
   // print the address of the deployed contract
   console.log(
     "Crypto Devs Contract Address:",
